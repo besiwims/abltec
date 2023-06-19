@@ -141,7 +141,7 @@ const Header = () => {
       </header>
       {/* Mobile Navigation */}
 
-      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-2 sm:px-4 shadow-t ">
+      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-2 sm:px-2 shadow-t ">
         <div className="bg-white-500 sm:px-2">
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
@@ -154,14 +154,14 @@ const Header = () => {
                 setActiveLink("about");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "about"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent")
               }
             >
               <svg
-                className="w-6 h-6"
+                className="w-3 h-3"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -186,14 +186,14 @@ const Header = () => {
                 setActiveLink("feature");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "feature"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
             >
               <svg
-                className="w-6 h-6"
+                className="w-3 h-3"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -218,14 +218,14 @@ const Header = () => {
                 setActiveLink("pricing");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "pricing"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
             >
               <svg
-                className="w-6 h-6"
+                className="w-3 h-3"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -250,14 +250,14 @@ const Header = () => {
                 setActiveLink("testimoni");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "testimoni"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
             >
               <svg
-                className="w-6 h-6"
+                className="w-3 h-3"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -282,14 +282,14 @@ const Header = () => {
                 setActiveLink("testimoni");
               }}
               className={
-                "mx-1 sm:mx-2 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "testimoni"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
             >
               <svg
-                className="w-6 h-6"
+                className="w-3 h-3"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
