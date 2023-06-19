@@ -103,16 +103,16 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="testimoni"
+              to="gallery"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("testimoni");
+                setActiveLink("gallery");
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "testimoni"
+                (activeLink === "gallery"
                   ? " text-orange-500 animation-active "
                   : " text-black-500 hover:text-orange-500 ")
               }
@@ -141,8 +141,8 @@ const Header = () => {
       </header>
       {/* Mobile Navigation */}
 
-      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-2 sm:px-2 shadow-t ">
-        <div className="bg-white-500 sm:px-2">
+      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-1 sm:px-2 shadow-t ">
+        <div className="bg-white-500 sm:px-1">
           <ul className="flex w-full justify-between items-center text-black-500">
             <LinkScroll
               activeClass="active"
@@ -154,14 +154,14 @@ const Header = () => {
                 setActiveLink("about");
               }}
               className={
-                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                "mx-0 sm:mx-0 px-1 sm:px-1 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "about"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent")
               }
             >
               <svg
-                className="w-3 h-3"
+                className="w-7 h-7"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -186,14 +186,14 @@ const Header = () => {
                 setActiveLink("feature");
               }}
               className={
-                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                "mx-0 sm:mx-0 px-1 sm:px-1 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "feature"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
             >
               <svg
-                className="w-3 h-3"
+                className="w-7 h-7"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -218,14 +218,14 @@ const Header = () => {
                 setActiveLink("pricing");
               }}
               className={
-                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                "mx-0 sm:mx-0 px-1 sm:px-1 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "pricing"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
             >
               <svg
-                className="w-3 h-3"
+                className="w-7 h-7"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -250,14 +250,14 @@ const Header = () => {
                 setActiveLink("testimoni");
               }}
               className={
-                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                "mx-0 sm:mx-0 px-1 sm:px-1 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
                 (activeLink === "testimoni"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
             >
               <svg
-                className="w-3 h-3"
+                className="w-7 h-7"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -274,22 +274,22 @@ const Header = () => {
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="testimoni"
+              to="gallery"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("testimoni");
+                setActiveLink("gallery");
               }}
               className={
-                "mx-1 sm:mx-1 px-3 sm:px-2 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
-                (activeLink === "testimoni"
+                "mx-0 sm:mx-0 px-1 sm:px-1 py-2 flex flex-col items-center text-xs border-t-2 transition-all " +
+                (activeLink === "gallery"
                   ? "  border-orange-500 text-orange-500"
                   : " border-transparent ")
               }
             >
-              <svg
-                className="w-3 h-3"
+             <svg
+                className="w-7 h-7"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -299,7 +299,7 @@ const Header = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                 />
               </svg>
               Gallery

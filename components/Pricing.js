@@ -303,7 +303,6 @@ You are welcome to talk to us!
           </ScrollAnimationWrapper>
         </div>
 
-
         <div className="flex flex-col w-full my-16" id="testimoni">
           <div>
 
@@ -356,6 +355,20 @@ You are welcome to talk to us!
                 ></div>
             </motion.div>
           </ScrollAnimationWrapper>
+        </div>
+        
+        <div className="flex flex-col w-full my-16" id="gallery">
+
+        <div  style={{fontSize:"2em",color:"#ad8105",textAlign:"center"}}><br/><br/><br/>
+        <strong>
+        Gallery
+        </strong>
+        </div>
+
+        <div >
+        images here
+        </div>
+        <ButtonPrimary>Get Started</ButtonPrimary>
         </div>
       </div>
     </div>
