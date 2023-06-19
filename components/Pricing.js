@@ -305,7 +305,7 @@ You are welcome to talk to us!
 
 
         <div className="flex flex-col w-full my-16" id="testimoni">
-          <ScrollAnimationWrapper>
+          <div>
 
             <motion.h3
               variants={scrollAnimation}             
@@ -326,7 +326,8 @@ You are welcome to talk to us!
             We aim to grow through productive partnerships, investments, market research and through emerging cutting edge technologies.<br/><br/>
             We are open to your input, talk to us.
             </motion.p>
-          </ScrollAnimationWrapper>
+          </div>
+
           <ScrollAnimationWrapper className="w-full flex flex-col py-12">
             <motion.div variants={scrollAnimation}>
               <Testimoni />
